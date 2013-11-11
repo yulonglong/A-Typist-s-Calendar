@@ -1,3 +1,4 @@
+//@author A0103494J
 package com.licensetokil.atypistcalendar.tasksmanager;
 
 import static org.junit.Assert.assertEquals;
@@ -9,7 +10,7 @@ import org.junit.Test;
 
 import com.licensetokil.atypistcalendar.parser.*;
 
-public class JUnitTestAdd {
+public class JUnitTestOutput {
 
 	@Test
 	public void testOutput() {
@@ -206,3 +207,4 @@ public class JUnitTestAdd {
 		assertEquals(TasksManager.getInstance().executeCommand(new UndoAction()),"Update command successfully undone\n\n");
 	}
 }
+//@author A0103494J
